@@ -1,5 +1,6 @@
 import numpy as np
 from DeeperDream.Loss import *
+from DeeperDream.Activation import *
 
 
 class Linear_Regression:
