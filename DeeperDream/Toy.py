@@ -3,7 +3,6 @@ Used to make toy data sets
 """
 
 import numpy as np
-from matplotlib import pyplot as plt
 
 
 def Donut(n, r, margin):
