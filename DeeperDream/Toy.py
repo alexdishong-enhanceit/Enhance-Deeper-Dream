@@ -16,3 +16,14 @@ def Donut(n, r, margin):
     x = np.vstack([x_hole, x_donut])
     y = np.vstack([y_hole, y_donut])
     return x, y
+
+
+def Clusters(n, cats, dims, spread):
+    x = []
+    y = []
+    for i in range(cats):
+        x.append(np.random.randn(n, dims) + np.random.randn(dims)*spread)
+        y.append(np.array([np.arange(cats)] * n) == i)
+    x = np.vstack(x)
+    y = np.vstack(y)
+    return x, y
