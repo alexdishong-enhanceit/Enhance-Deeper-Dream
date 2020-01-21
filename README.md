@@ -1,6 +1,3 @@
 # Deeper Dream Team
 ## Enhance IT Machine Learning training group (January 2020)
-
-### regression.py
-
-This library contains activation functions, loss functions, performance metrics, and a preprocessing/normalization function that are called by logistic regression and linear regression classes.
+The DeeperDream directory contains .py files for activation functions, loss functions, performance metrics, preprocessing/normalization functions, and class files for linear regression and logistic regression.
